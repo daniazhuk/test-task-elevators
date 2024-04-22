@@ -1,0 +1,13 @@
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  margin: 0;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+body.preload *{
+  animation-duration: 0s !important;
+  -webkit-animation-duration: 0s !important;
+  transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+}
